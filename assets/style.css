@@ -9,12 +9,38 @@
   padding: 20px;
 }
 
-.section-tile {
-  cursor: pointer;
-  text-align: center;
+.section-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.drag-handle {
+  cursor: grab;
+  font-size: 18px;
+  opacity: 0.6;
+  user-select: none;
+}
+
+.drag-handle:hover {
+  opacity: 1;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.section-title {
+  flex: 1;
+  text-align: left;
   font-weight: 500;
 }
 
-.section-tile:hover {
-  background-color: #f1f3f5;
+.section-tile {
+  border: none;
 }
+
+.draggable-item {
+  user-select: none;
+}
+
