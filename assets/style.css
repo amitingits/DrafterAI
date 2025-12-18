@@ -1,18 +1,20 @@
-body {
-  background-color: #f8f9fa;
+.left-panel {
+  background: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  min-height: 100vh;
 }
 
-.hero-title {
-  font-size: 3rem;
-  font-weight: 700;
+.right-panel {
+  padding: 20px;
 }
 
-.hero-subtitle {
-  font-size: 1.2rem;
-  margin: 20px 0;
-  color: #555;
+.section-tile {
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
 }
 
-.cta-btn {
-  margin-top: 20px;
+.section-tile:hover {
+  background-color: #f1f3f5;
 }
